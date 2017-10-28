@@ -1,0 +1,6 @@
+framework module Pods_FishX {
+  umbrella header "Pods-FishX-umbrella.h"
+
+  export *
+  module * { export * }
+}
