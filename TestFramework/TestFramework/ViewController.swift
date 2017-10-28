@@ -23,6 +23,7 @@ class ViewController: UIViewController {
 
     @IBAction func openXib(_ sender: Any) {
         MyFramework.openVCFromXib()
+        print("lalalala")
     }
 
     @IBAction func openStoryboard(_ sender: Any) {
