@@ -8,21 +8,27 @@
 
 /* Begin PBXBuildFile section */
 		28318BDF1FA4302200CC1A26 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28318BDE1FA4302200CC1A26 /* AppDelegate.swift */; };
-		28318BE11FA4302200CC1A26 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28318BE01FA4302200CC1A26 /* ViewController.swift */; };
+		28318BE11FA4302200CC1A26 /* ItemViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28318BE01FA4302200CC1A26 /* ItemViewController.swift */; };
 		28318BE41FA4302200CC1A26 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 28318BE21FA4302200CC1A26 /* Main.storyboard */; };
 		28318BE61FA4302200CC1A26 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 28318BE51FA4302200CC1A26 /* Assets.xcassets */; };
 		28318BE91FA4302200CC1A26 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 28318BE71FA4302200CC1A26 /* LaunchScreen.storyboard */; };
+		2894A1681FA4D75F00A5FF0E /* NetManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2894A1671FA4D75F00A5FF0E /* NetManager.swift */; };
+		2894A16A1FA4DF0F00A5FF0E /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2894A1691FA4DF0F00A5FF0E /* Item.swift */; };
+		2894A16C1FA4F0FA00A5FF0E /* ItemCellTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2894A16B1FA4F0FA00A5FF0E /* ItemCellTableViewCell.swift */; };
 		99E3CD894C5E16049E9BC728 /* Pods_FishX.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 713DFF9603BE4C46E4713D61 /* Pods_FishX.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		28318BDB1FA4302200CC1A26 /* FishX.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FishX.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		28318BDE1FA4302200CC1A26 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		28318BE01FA4302200CC1A26 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		28318BE01FA4302200CC1A26 /* ItemViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemViewController.swift; sourceTree = "<group>"; };
 		28318BE31FA4302200CC1A26 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		28318BE51FA4302200CC1A26 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		28318BE81FA4302200CC1A26 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		28318BEA1FA4302200CC1A26 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2894A1671FA4D75F00A5FF0E /* NetManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetManager.swift; sourceTree = "<group>"; };
+		2894A1691FA4DF0F00A5FF0E /* Item.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		2894A16B1FA4F0FA00A5FF0E /* ItemCellTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ItemCellTableViewCell.swift; sourceTree = "<group>"; };
 		472F67A8739429F104BE19B9 /* Pods-FishX.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FishX.debug.xcconfig"; path = "Pods/Target Support Files/Pods-FishX/Pods-FishX.debug.xcconfig"; sourceTree = "<group>"; };
 		713DFF9603BE4C46E4713D61 /* Pods_FishX.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FishX.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CFC6018B81C6A2E113820572 /* Pods-FishX.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FishX.release.xcconfig"; path = "Pods/Target Support Files/Pods-FishX/Pods-FishX.release.xcconfig"; sourceTree = "<group>"; };
@@ -62,11 +68,14 @@
 			isa = PBXGroup;
 			children = (
 				28318BDE1FA4302200CC1A26 /* AppDelegate.swift */,
-				28318BE01FA4302200CC1A26 /* ViewController.swift */,
+				28318BE01FA4302200CC1A26 /* ItemViewController.swift */,
 				28318BE21FA4302200CC1A26 /* Main.storyboard */,
 				28318BE51FA4302200CC1A26 /* Assets.xcassets */,
 				28318BE71FA4302200CC1A26 /* LaunchScreen.storyboard */,
 				28318BEA1FA4302200CC1A26 /* Info.plist */,
+				2894A1671FA4D75F00A5FF0E /* NetManager.swift */,
+				2894A1691FA4DF0F00A5FF0E /* Item.swift */,
+				2894A16B1FA4F0FA00A5FF0E /* ItemCellTableViewCell.swift */,
 			);
 			path = FishX;
 			sourceTree = "<group>";
@@ -225,7 +234,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				28318BE11FA4302200CC1A26 /* ViewController.swift in Sources */,
+				2894A16A1FA4DF0F00A5FF0E /* Item.swift in Sources */,
+				28318BE11FA4302200CC1A26 /* ItemViewController.swift in Sources */,
+				2894A16C1FA4F0FA00A5FF0E /* ItemCellTableViewCell.swift in Sources */,
+				2894A1681FA4D75F00A5FF0E /* NetManager.swift in Sources */,
 				28318BDF1FA4302200CC1A26 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -392,6 +404,7 @@
 				28318BEF1FA4302200CC1A26 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
